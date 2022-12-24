@@ -2,7 +2,7 @@
 
 ## Requirement
 
-- Node.js 16.x ~
+- Node.js 18.x ~
 
 ## Install
 
