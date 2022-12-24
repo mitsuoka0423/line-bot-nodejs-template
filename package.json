@@ -1,7 +1,7 @@
 {
   "name": "line-bot-nodejs",
-  "version": "0.0.1",
-  "description": "aaa",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,15 @@
     "url": "git+https://github.com/mitsuoka0423/line-bot-nodejs.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Takahiro Mitsuoka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mitsuoka0423/line-bot-nodejs/issues"
   },
-  "homepage": "https://github.com/mitsuoka0423/line-bot-nodejs#readme"
+  "homepage": "https://github.com/mitsuoka0423/line-bot-nodejs#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
 }
