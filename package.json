@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "predev": "npm ci",
-    "dev": "node tunnel.js & npm run serve",
-    "ngrok": "ngrok http 13000",
+    "dev": "npm run tunnel & npm run serve",
+    "tunnel": "node tunnel.js",
     "serve": "node index.js"
   },
   "repository": {
