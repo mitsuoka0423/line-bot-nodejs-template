@@ -7,19 +7,21 @@
     "predev": "npm ci",
     "dev": "npm run tunnel & npm run serve",
     "tunnel": "node tunnel.js",
-    "serve": "node index.js"
+    "serve": "node index.js",
+    "preserve:docker": "docker build . -t line-bot-nodejs-template",
+    "serve:docker": "docker run -p 13000:13000 -d line-bot-nodejs-template"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mitsuoka0423/line-bot-nodejs.git"
+    "url": "git+https://github.com/mitsuoka0423/line-bot-nodejs-template.git"
   },
   "keywords": [],
   "author": "Takahiro Mitsuoka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mitsuoka0423/line-bot-nodejs/issues"
+    "url": "https://github.com/mitsuoka0423/line-bot-nodejs-template/issues"
   },
-  "homepage": "https://github.com/mitsuoka0423/line-bot-nodejs#readme",
+  "homepage": "https://github.com/mitsuoka0423/line-bot-nodejs-template#readme",
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
     "express": "^4.18.2"
